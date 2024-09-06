@@ -51,7 +51,7 @@ OWNER_ID = list(
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-c0d3b033-ebbc-44c0-805c-deec2f152bcf")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "paid-host-by--ifeelscam")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
